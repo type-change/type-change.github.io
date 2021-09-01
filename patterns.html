@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Applying Type Changes</title>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">IntelliTC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="patterns.html">Patterns</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resources/plugin-org.company.ddtm.zip">Download</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container">
+    <div class="container">
+        <div class="row" style="margin: 50px 0">
+            <h3 class="display-7 fw-bold">Currently supported Type Change patterns:</h3>
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Source Type</th>
+            <th scope="col">Target Type</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr> <th scope="row">1</th> <td><code>java.io.File</code></td> <td><code>java.nio.file.Path</code></td> </tr>
+        <tr> <th scope="row">2</th> <td><code>String</code></td> <td><code>java.util.regex.Pattern</code></td> </tr>
+        <tr> <th scope="row">3</th> <td><code>java.util.List<:[t]></code></td> <td><code>java.util.Set<:[t]></code></td> </tr>
+        <tr> <th scope="row">4</th> <td><code>java.util.List<:[t]></code></td> <td><code>java.util.Deque<:[t]></code></td> </tr>
+        <tr> <th scope="row">5</th> <td><code>String</code></td> <td><code>java.nio.charset.Charset</code></td> </tr>
+        <tr> <th scope="row">6</th> <td><code>String</code></td> <td><code>java.net.URL</code></td> </tr>
+        <tr> <th scope="row">7</th> <td><code>String</code></td> <td><code>java.net.URI</code></td> </tr>
+        <tr> <th scope="row">8</th> <td><code>java.util.concurrent.Callable<:[t]></code></td> <td><code>java.util.function.Supplier<:[t]></code></td> </tr>
+        <tr> <th scope="row">9</th> <td><code>java.util.Map<String, String></code></td> <td><code>java.util.Properties</code></td> </tr>
+        <tr> <th scope="row">10</th> <td><code>String</code></td> <td><code>java.util.UUID</code></td> </tr>
+        <tr> <th scope="row">11</th> <td><code>:[t]</code></td> <td><code>java.util.Optional<:[t]></code></td> </tr>
+        <tr> <th scope="row">12</th> <td><code>java.util.Optional<:[t]></code></td> <td><code>:[t]</code></td> </tr>
+        <tr> <th scope="row">13</th> <td><code>:[t]</code></td> <td><code>java.util.List<:[t]></code></td> </tr>
+        <tr> <th scope="row">14</th> <td><code>String</code></td> <td><code>java.nio.file.Path</code></td> </tr>
+        <tr> <th scope="row">15</th> <td><code>int</code></td> <td><code>long</code></td> </tr>
+        <tr> <th scope="row">16</th> <td><code>long</code></td> <td><code>java.math.BigInteger</code></td> </tr>
+        <tr> <th scope="row">17</th> <td><code>java.util.Date</code></td> <td><code>java.time.Instant</code></td> </tr>
+        <tr> <th scope="row">18</th> <td><code>java.util.Date</code></td> <td><code>java.time.LocalDate</code></td> </tr>
+        <tr> <th scope="row">19</th> <td><code>long</code></td> <td><code>java.time.Duration</code></td> </tr>
+        <tr> <th scope="row">20</th> <td><code>java.util.function.Function<Integer,Integer></code></td> <td><code>java.util.function.IntUnaryOperator</code></td> </tr>
+        <tr> <th scope="row">21</th> <td><code>java.util.function.Function<Double,Integer></code></td> <td><code>java.util.function.DoubleToIntFunction</code></td> </tr>
+        <tr> <th scope="row">22</th> <td><code>java.util.function.Function<Long,Integer></code></td> <td><code>java.util.function.LongToIntFunction</code></td> </tr>
+        <tr> <th scope="row">23</th> <td><code>java.util.function.Function<:[t],Integer></code></td> <td><code>java.util.function.ToIntFunction</code></td> </tr>
+        <tr> <th scope="row">24</th> <td><code>java.util.function.BiFunction<Integer,Integer,Integer></code></td> <td><code>java.util.function.IntBinaryOperator</code></td> </tr>
+        <tr> <th scope="row">25</th> <td><code>java.util.function.BiFunction<:[a],:[b],Integer></code></td> <td><code>java.util.function.ToIntBiFunction</code></td> </tr>
+        <tr> <th scope="row">26</th> <td><code>java.util.function.BiFunction<:[a],:[b],Long></code></td> <td><code>java.util.function.ToLongBiFunction</code></td> </tr>
+        <tr> <th scope="row">27</th> <td><code>java.util.function.BiFunction<:[a],:[b],Double></code></td> <td><code>java.util.function.ToDoubleBiFunction</code></td> </tr>
+        <tr> <th scope="row">28</th> <td><code>java.util.function.Function<Long,Long></code></td> <td><code>java.util.function.LongUnaryOperator</code></td> </tr>
+        <tr> <th scope="row">29</th> <td><code>java.util.function.Function<Integer,Long></code></td> <td><code>java.util.function.IntToLongFunction</code></td> </tr>
+        <tr> <th scope="row">30</th> <td><code>java.util.function.Function<Double,Long></code></td> <td><code>java.util.function.DoubleToLongFunction</code></td> </tr>
+        <tr> <th scope="row">31</th> <td><code>java.util.function.Function<:[t],Long></code></td> <td><code>java.util.function.ToLongFunction</code></td> </tr>
+        <tr> <th scope="row">32</th> <td><code>java.util.function.BiFunction<Long,Long,Long></code></td> <td><code>java.util.function.LongBinaryOperator</code></td> </tr>
+        <tr> <th scope="row">33</th> <td><code>java.util.function.BiFunction<Double,Double,Double></code></td> <td><code>java.util.function.DoubleBinaryOperator</code></td> </tr>
+        <tr> <th scope="row">34</th> <td><code>java.util.function.Function<Double,Double></code></td> <td><code>java.util.function.DoubleUnaryOperator</code></td> </tr>
+        <tr> <th scope="row">35</th> <td><code>java.util.function.Function<Integer,Double></code></td> <td><code>java.util.function.IntToDoubleFunction</code></td> </tr>
+        <tr> <th scope="row">36</th> <td><code>java.util.function.Function<Long,Double></code></td> <td><code>java.util.function.LongToDoubleFunction</code></td> </tr>
+        <tr> <th scope="row">37</th> <td><code>java.util.function.Function<:[t],Double></code></td> <td><code>java.util.function.ToDoubleFunction</code></td> </tr>
+        <tr> <th scope="row">38</th> <td><code>java.util.function.Function<Long,Boolean></code></td> <td><code>java.util.function.LongPredicate</code></td> </tr>
+        <tr> <th scope="row">39</th> <td><code>java.util.function.Function<Integer,Boolean></code></td> <td><code>java.util.function.IntPredicate</code></td> </tr>
+        <tr> <th scope="row">40</th> <td><code>java.util.function.Function<Double,Boolean></code></td> <td><code>java.util.function.DoublePredicate</code></td> </tr>
+        <tr> <th scope="row">41</th> <td><code>java.util.function.Function<:[t],Boolean></code></td> <td><code>java.util.function.Predicate<:[t]></code></td> </tr>
+        <tr> <th scope="row">42</th> <td><code>java.util.function.Supplier<Integer></code></td> <td><code>java.util.function.IntSupplier</code></td> </tr>
+        <tr> <th scope="row">43</th> <td><code>java.util.function.Supplier<Long></code></td> <td><code>java.util.function.LongSupplier</code></td> </tr>
+        <tr> <th scope="row">44</th> <td><code>java.util.function.Supplier<Double></code></td> <td><code>java.util.function.DoubleSupplier</code></td> </tr>
+        <tr> <th scope="row">45</th> <td><code>java.util.function.Supplier<Boolean></code></td> <td><code>java.util.function.BooleanSupplier</code></td> </tr>
+        <tr> <th scope="row">46</th> <td><code>java.util.Optional<Integer></code></td> <td><code>java.util.OptionalInt</code></td> </tr>
+        <tr> <th scope="row">47</th> <td><code>java.util.Optional<Long></code></td> <td><code>java.util.OptionalLong</code></td> </tr>
+        <tr> <th scope="row">48</th> <td><code>java.util.Optional<Double></code></td> <td><code>java.util.OptionalDouble</code></td> </tr>
+        <tr> <th scope="row">49</th> <td><code>com.google.common.base.Optional<:[t]></code></td> <td><code>java.util.Optional<:[t]></code></td> </tr>
+        <tr> <th scope="row">50</th> <td><code>com.google.common.base.Function<:[a],:[b]></code></td> <td><code>java.util.function.Function<:[a],:[b]></code></td> </tr>
+        <tr> <th scope="row">51</th> <td><code>com.google.common.base.Function<Long,:[t]></code></td> <td><code>java.util.function.LongFunction<:[t]></code></td> </tr>
+        <tr> <th scope="row">52</th> <td><code>com.google.common.base.Predicate<:[t]></code></td> <td><code>java.util.function.Predicate<:[t]></code></td> </tr>
+        <tr> <th scope="row">53</th> <td><code>com.google.common.base.Supplier<:[t]></code></td> <td><code>java.util.function.Supplier<:[t]></code></td> </tr>
+        <tr> <th scope="row">54</th> <td><code>java.util.function.Consumer<Integer></code></td> <td><code>java.util.function.IntConsumer</code></td> </tr>
+        <tr> <th scope="row">55</th> <td><code>java.util.function.Consumer<Long></code></td> <td><code>java.util.function.LongConsumer</code></td> </tr>
+        <tr> <th scope="row">56</th> <td><code>java.util.function.Consumer<Double></code></td> <td><code>java.util.function.DoubleConsumer</code></td> </tr>
+        <tr> <th scope="row">57</th> <td><code>com.google.common.base.Optional<Integer></code></td> <td><code>java.util.OptionalInt</code></td> </tr>
+        <tr> <th scope="row">58</th> <td><code>com.google.common.base.Optional<Long></code></td> <td><code>java.util.OptionalLong</code></td> </tr>
+        <tr> <th scope="row">59</th> <td><code>com.google.common.base.Optional<Double></code></td> <td><code>java.util.OptionalDouble</code></td> </tr>
+        </tbody>
+    </table>
+
+</main>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+-->
+</body>
+</html>

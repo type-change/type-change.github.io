@@ -1,1 +1,193 @@
-Type Change
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Applying Type Changes</title>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">IntelliTC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="patterns.html">Patterns</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resources/plugin-org.company.ddtm.zip">Download</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container">
+    <div class="p-5 mb-8 bg-light rounded-3" style="margin: 100px 0">
+        <div class="container py-5">
+            <h1 class="display-5 fw-bold">IntelliTC: Applying Inferred Type Changes</h1><br>
+            <p class="col-md-9 fs-4">
+                An IntelliJ IDEA plugin that adapts the current approach of Type Migration refactoring
+                for Java to use custom structural-replace templates that express the adaptations required to perform the
+                type change
+            </p><br>
+            <a class="btn btn-primary btn-lg" type="button" href="resources/plugin-org.company.ddtm.zip">Download</a>
+        </div>
+    </div>
+
+    <div class="p-5 rounded-3" style="margin-bottom: -20px">
+        <div class="row" style="margin: 10px">
+            <h2>Installation</h2>
+            <hr>
+            <ul>
+                <li>Download the archive with the plugin and update your IntelliJ IDEA to <b>2021.1+</b> version</li>
+                <li>Go to the <i>Settings</i> menu tab and choose the following item:</li>
+                <div class="row" style="margin: 20px 0 20px 0">
+                    <div class="col-md-9">
+                        <img width="750" src="assets/img/install.png">
+                    </div>
+                </div>
+                <li>Choose the path to the downloaded plugin's ZIP archive. On Linux / MacOS, it should be something like that:</li>
+                <div class="row" style="margin: 20px 30px 0 30px">
+                    <pre>/path/to/plugin-org.company.ddtm.zip</pre>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="p-5 mb-4 rounded-3">
+        <div class="row">
+            <h2>Overview</h2>
+            <hr>
+            <p>There are several modalities provided by the plugin.</p><br><br>
+        </div>
+        <div style="margin: 30px 0">
+            <div class="row">
+                <h4>Classic mode</h4>
+                <p>
+                    In this mode, the plugin operates as a usual <a
+                        href="https://plugins.jetbrains.com/docs/intellij/code-intentions.html">code intention</a> that
+                    can
+                    be invoked from the <i>Show Context Actions</i> item in
+                    the popup menu when you click on the type element in your Java code. Then, you can choose any of the
+                    suggested <i>Type Migration Rules</i> from the dropdown list, and the plugin will try to update
+                    all data-flow dependent references of the selected element:
+                </p>
+            </div>
+            <div class="row justify-content-center" style="margin: 20px 0 20px 0">
+                <div class="col-md-8">
+                    <img width="650" src="assets/img/light-proactive.gif">
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    If the plugin does not succeed in migrating some references, it will show the Failed Type Changes
+                    tool
+                    window. Moreover, for some of them it can suggest another type conversion rules using another type
+                    of
+                    code intention — <b>Recovering Type Change Intention</b>. But this one could also change the type of
+                    the
+                    overall expression or statement in your code, so be careful when applying them.</p>
+            </div>
+            <div class="row justify-content-center" style="margin: 20px 0 20px 0">
+                <div class="col-md-8">
+                    <img width=800 src="assets/img/recovering.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div style="margin: 70px 0">
+            <div class="row" style="margin: 10px">
+                <h3>Suggested Refactoring mode</h3>
+                <p>
+                    In such mode, an intention (and corresponding refactoring) is suggested when the user changes some
+                    type
+                    element in Java code manually. After the single type change is performed, you can put the caret on
+                    the
+                    element that was just changed, and open the <i>Show Context Actions</i> menu item. If such a type
+                    change
+                    is supported by the plugin, it will offer you the appropriate type migration rules. You can also
+                    click on the icon that appears on the gutter, and run the type migration from there:
+                </p>
+            </div>
+            <div class="row justify-content-center" style="margin: 20px 0 20px 0">
+                <div class="col-md-8">
+                    <img width=650 src="assets/img/light-reactive.gif">
+                </div>
+            </div>
+            <div class="row" style="margin: 10px">
+                <i>Note: the reactive intention for the particular type element in the code turns off by timeout (10 sec
+                    by default)!</i>
+            </div>
+        </div>
+
+        <div style="margin: 70px 0">
+            <div class="row" style="margin: 10px">
+                <h3>Inspection mode</h3>
+                <p>
+                    Suggests the user to perform a type changes based on the recommendations from Effective Java and
+                    other popular developer forums.
+                </p>
+            </div>
+            <div class="row justify-content-center" style="margin: 20px 0 20px 0">
+                <div class="col-md-8">
+                    <img width=650 src="assets/img/light-inspection.gif">
+                </div>
+            </div>
+        </div>
+
+        <div style="margin: 70px 0">
+            <div class="row" style="margin: 10px">
+                <h3>Other features</h3>
+                <p>
+                    Don't forget to choose an appropriate search scope for type changes each time!
+                    <br>
+                    For now, the plugin
+                    supports
+                    3 different scopes: <b>Local Scope</b>, <b>Current File</b>, and <b>All Project</b>.
+                    <br><br>
+                    Also, you can always edit any of type change patterns or rewrite rules manually in the <i>Settings</i> menu
+                    tab:
+                </p>
+            </div>
+            <div class="row justify-content-center" style="margin: 20px 0 20px 0">
+                <div class="col-md-9 align-self-center">
+                    <img width=850 src="assets/img/new-settings.png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+-->
+</body>
+</html>
