@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].writeDouble(:[TCIVar])", "Replace": ":[v0].writeObject(:[TCIVar])", "Instances": 2, "Relevant Instances": 2, "Commits": ["42d7be9eed21da40558f6730e477b0adf298faca"], "Project": ["drools"], "Link": "<a href= ../TypeChange500/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

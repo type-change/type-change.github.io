@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "formatter.parse(:[TCIVar])", "Replace": ":[TCIVar]", "Instances": 1, "Relevant Instances": 1, "Commits": ["9ef51c5ec0f2d09716100f87219ddea2e323d63c"], "Project": ["voltdb"], "Link": "<a href= ../TypeChange440/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

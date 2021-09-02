@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].collect(Collectors.toList())", "Replace": ":[v0].onClose(iter::close)", "Instances": 1, "Relevant Instances": 1, "Commits": ["b2df85b6eb656479f80a889f7db2f5d1a07f1ce6"], "Project": ["alluxio"], "Link": "<a href= ../TypeChange177/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

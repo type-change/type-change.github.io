@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].firstKey()", "Replace": ":[v0].initialSize()", "Instances": 2, "Relevant Instances": 2, "Commits": ["d26d0c9a59f04d4ee871b935920164f781a9940c"], "Project": ["caffeine"], "Link": "<a href= ../TypeChange227/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

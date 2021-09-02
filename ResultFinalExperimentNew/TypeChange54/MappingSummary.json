@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "Arrays.copyOf(:[TCIVar],usesStaticLibrariesVersions.length)", "Replace": ":[TCIVar]", "Instances": 1, "Relevant Instances": 1, "Commits": ["30a23a5a7bcc1264ceaad93303176f1faff2f8c4"], "Project": ["platform_frameworks_base"], "Link": "<a href= ../TypeChange54/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

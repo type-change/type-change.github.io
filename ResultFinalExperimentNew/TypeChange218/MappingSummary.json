@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "new HashMap&lt;:[v0]&gt;()", "Replace": "new EnumMap&lt;:[v0]&gt;(Type.class)", "Instances": 1, "Relevant Instances": 1, "Commits": ["bcaf64b4a167d31b0bfa275d32847569f09e4449"], "Project": ["neo4j"], "Link": "<a href= ../TypeChange218/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

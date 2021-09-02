@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "pb.environment()", "Replace": "new HashMap&lt;String,String&gt;()", "Instances": 1, "Relevant Instances": 1, "Commits": ["267c2598f8d46a22136859fa34e73e5fd5b41e0f"], "Project": ["syncthing-android"], "Link": "<a href= ../TypeChange465/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

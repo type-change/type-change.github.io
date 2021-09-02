@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "DateTime.now().withTimeAtStartOfDay().toDate()", "Replace": "UUID.randomUUID().toString()", "Instances": 1, "Relevant Instances": 1, "Commits": ["288c10a3ff7bb3ff516b43d4eaa2b14e3c6f2b65"], "Project": ["killbill"], "Link": "<a href= ../TypeChange278/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "new HashMap&lt;String,String&gt;(:[v0])", "Replace": "new HashMap&lt;&gt;(:[v0])", "Instances": 1, "Relevant Instances": 1, "Commits": ["772e58a2d3bbba009f3ab980c2171c31f6bf3f9f"], "Project": ["geoserver"], "Link": "<a href= ../TypeChange173/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

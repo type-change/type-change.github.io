@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].toCharArray()", "Replace": ":[v0].getBytes()", "Instances": 1, "Relevant Instances": 1, "Commits": ["2ab881828f03920ca78804d14f33f21225e1f9e0"], "Project": ["orientdb"], "Link": "<a href= ../TypeChange251/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

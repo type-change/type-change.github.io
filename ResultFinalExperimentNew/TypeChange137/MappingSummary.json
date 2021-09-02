@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0]", "Replace": "ResponseEntity.ok().lastModified(lastModified).body(:[v0])", "Instances": 2, "Relevant Instances": 2, "Commits": ["236ed4a42079ba3b0f25f0bf80dd31730a58b628"], "Project": ["sagan"], "Link": "<a href= ../TypeChange137/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

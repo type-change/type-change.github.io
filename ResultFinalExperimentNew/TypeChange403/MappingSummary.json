@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "new HashMap&lt;:[v1]&gt;(:[v0])", "Replace": "new Hashtable&lt;:[v1]&gt;(:[v0])", "Instances": 1, "Relevant Instances": 1, "Commits": ["1ac76fde5986d78f34f6a73cd157487bc26d8b36"], "Project": ["keycloak"], "Link": "<a href= ../TypeChange403/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

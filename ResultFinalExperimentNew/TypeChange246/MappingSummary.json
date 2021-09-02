@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[[TCIVar]]", "Replace": "Collections.unmodifiableList(new ArrayList&lt;&gt;(:[TCIVar]))", "Instances": 1, "Relevant Instances": 1, "Commits": ["9b5f8d96179d12aee748ab78c20f6a379c570c50"], "Project": ["drools"], "Link": "<a href= ../TypeChange246/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

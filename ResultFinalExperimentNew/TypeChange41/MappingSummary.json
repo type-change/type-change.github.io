@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "false", "Replace": "canSuspend", "Instances": 1, "Relevant Instances": 1, "Commits": ["43f3af7e8a3c77ba79ce899ff58f5f29d49b374f"], "Project": ["platform_frameworks_base"], "Link": "<a href= ../TypeChange41/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

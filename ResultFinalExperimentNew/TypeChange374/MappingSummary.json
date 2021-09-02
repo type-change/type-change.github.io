@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "new ArrayList&lt;Long&gt;()", "Replace": "new ArrayList&lt;&gt;()", "Instances": 2, "Relevant Instances": 2, "Commits": ["2474f4b553430cf237787ad0e7aee00411d2818e", "107ecbf2f991fa5422f345897cd112fbf83d796a"], "Project": ["cucumber-jvm"], "Link": "<a href= ../TypeChange374/Mapping-0.html>Link</a>", "isChange": true, "isGood": true, "isVeryGood": false}}

@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "Mockito.mock(ServletResponse.class)", "Replace": "Mockito.mock(HttpServletResponse.class)", "Instances": 11, "Relevant Instances": 11, "Commits": ["3c95ca4f21dcfcaabdd0694e7d005a45baba953f"], "Project": ["hadoop"], "Link": "<a href= ../TypeChange85/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

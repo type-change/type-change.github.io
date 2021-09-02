@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "HotRodConstants.isObjectStorage(:[TCIVar])", "Replace": ":[TCIVar]", "Instances": 1, "Relevant Instances": 1, "Commits": ["db3e499f5393766d248454af246a145db353a37c"], "Project": ["infinispan"], "Link": "<a href= ../TypeChange123/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].build()", "Replace": ":[v0].build(cacheLoader)", "Instances": 1, "Relevant Instances": 1, "Commits": ["83b47d193c9ca4b9fd5ad037cbfb8bba492ceaef"], "Project": ["caffeine"], "Link": "<a href= ../TypeChange18/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

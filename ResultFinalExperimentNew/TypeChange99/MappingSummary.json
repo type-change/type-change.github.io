@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[TCIVar]", "Replace": ":[TCIVar].getValue()", "Instances": 2, "Relevant Instances": 2, "Commits": ["00dfdf50cfee9142daf987d38adf3eff3a971573", "a5b48ceadc6b3973659075233687dd8991748d87"], "Project": ["elasticsearch", "graphhopper"], "Link": "<a href= ../TypeChange99/Mapping-0.html>Link</a>", "isChange": true, "isGood": true, "isVeryGood": true}}

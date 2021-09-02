@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "this.restrictUpdateHash=:[TCIVar]", "Replace": ":[TCIVar]=:[TCIVar]", "Instances": 1, "Relevant Instances": 1, "Commits": ["01e38f40c217c3a3ae1cfb5369e7ef2aa356e75c"], "Project": ["platform_frameworks_base"], "Link": "<a href= ../TypeChange382/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

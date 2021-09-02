@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0]", "Replace": "BigInteger.valueOf(:[v0])", "Instances": 8, "Relevant Instances": 8, "Commits": ["6c75759afcdad22dc73c83a232f2246b754f6e5d", "d9d0f879ff5d9ed58cc570432745bb240144baf1"], "Project": ["binnavi"], "Link": "<a href= ../TypeChange133/Mapping-0.html>Link</a>", "isChange": true, "isGood": true, "isVeryGood": false}}

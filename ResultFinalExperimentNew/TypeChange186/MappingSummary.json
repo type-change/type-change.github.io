@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "m_entryHeaderBuf.b().getInt()", "Replace": "b.getChar()", "Instances": 1, "Relevant Instances": 1, "Commits": ["a86e0d909570a0479fac44daafbe5d04a1c2d1c0"], "Project": ["voltdb"], "Link": "<a href= ../TypeChange186/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

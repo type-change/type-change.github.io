@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "(Function&lt;A,A&gt;):[v0]", "Replace": "(UnaryOperator&lt;A&gt;):[v0]", "Instances": 1, "Relevant Instances": 1, "Commits": ["da7564d67a1a0c5ffc4f40d15e32ee5764458bb2"], "Project": ["speedment"], "Link": "<a href= ../TypeChange372/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

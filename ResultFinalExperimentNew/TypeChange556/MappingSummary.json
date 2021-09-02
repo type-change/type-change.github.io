@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0]", "Replace": "ImmutableMap.copyOf(:[v0])", "Instances": 1, "Relevant Instances": 1, "Commits": ["d2cb96a8147e38ba22d1f51b7baca23cd48bfac3"], "Project": ["bazel"], "Link": "<a href= ../TypeChange556/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

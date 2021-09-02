@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].restoreFromIncrementalBackup(:[TCIVar])", "Replace": ":[v0].restoreFullIncrementalBackup(:[TCIVar])", "Instances": 1, "Relevant Instances": 1, "Commits": ["10e5ab236e317ce9954740d221d6800301d1576d"], "Project": ["orientdb"], "Link": "<a href= ../TypeChange47/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

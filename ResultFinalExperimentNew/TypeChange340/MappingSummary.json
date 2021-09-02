@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "state_listener.getState(:[TCIVar])", "Replace": "receiver.getState(:[TCIVar])", "Instances": 1, "Relevant Instances": 1, "Commits": ["e3ce11056735982faba109d9c8e9571c494b00f3"], "Project": ["JGroups"], "Link": "<a href= ../TypeChange340/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

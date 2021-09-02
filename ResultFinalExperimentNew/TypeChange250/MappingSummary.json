@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].isClosed()", "Replace": ":[v0].numberOfShards()", "Instances": 1, "Relevant Instances": 1, "Commits": ["ec47d177b9758476ad29d9f9048332483a9ca472"], "Project": ["crate"], "Link": "<a href= ../TypeChange250/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

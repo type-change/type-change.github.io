@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].getCanonicalName() + STR0 + :[v1]", "Replace": ":[v0].getMethod(:[v1])", "Instances": 2, "Relevant Instances": 2, "Commits": ["5dd7a8420bbe43657abc82e5b8d073eb01b51d8d"], "Project": ["geode"], "Link": "<a href= ../TypeChange287/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

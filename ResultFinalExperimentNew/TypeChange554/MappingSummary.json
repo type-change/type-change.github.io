@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "new LinkedHashSet&lt;:[v0]&gt;()", "Replace": "new HashSet&lt;:[v0]&gt;()", "Instances": 4, "Relevant Instances": 4, "Commits": ["4bbda0b5c89605f3f3a04e115d4a806d7bc1c1ae", "fd34b086e281a2196de7bff27bb8543e05358e5d"], "Project": ["bazel"], "Link": "<a href= ../TypeChange554/Mapping-0.html>Link</a>", "isChange": true, "isGood": true, "isVeryGood": false}}

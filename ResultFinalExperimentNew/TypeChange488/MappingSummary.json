@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].resultFuture()", "Replace": ":[v0].completionFuture()", "Instances": 3, "Relevant Instances": 3, "Commits": ["b219356b98b83b09131d4f3a91d1214e234956f5"], "Project": ["crate"], "Link": "<a href= ../TypeChange488/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].debug(STR0,:[v3],:[v1],:[TCIVar])", "Replace": ":[v0].debug(STR1,:[v3],:[v1],:[TCIVar])", "Instances": 1, "Relevant Instances": 1, "Commits": ["18cc43d7e49a340007f05f6fb0d2bc8211d6823e"], "Project": ["pinpoint"], "Link": "<a href= ../TypeChange261/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

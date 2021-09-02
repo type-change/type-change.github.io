@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].get(:[v1])", "Replace": ":[v0].remove(:[v1])", "Instances": 2, "Relevant Instances": 2, "Commits": ["be4551191a17b9f50169f375798785ab5373e975"], "Project": ["geode"], "Link": "<a href= ../TypeChange208/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

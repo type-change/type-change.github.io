@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "new AtomicLong()", "Replace": "new AtomicBoolean()", "Instances": 2, "Relevant Instances": 2, "Commits": ["a0a714dc4016f03374dc5320133bfd130f7db5fa"], "Project": ["neo4j"], "Link": "<a href= ../TypeChange148/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

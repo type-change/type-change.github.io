@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "(short):[v0]", "Replace": "(Short):[v0]", "Instances": 1, "Relevant Instances": 1, "Commits": ["167d0919b4b69c0a31e9de3459a78b7500dd9a61"], "Project": ["graylog2-server"], "Link": "<a href= ../TypeChange139/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

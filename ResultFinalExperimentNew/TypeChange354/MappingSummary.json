@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[[TCIVar]]", "Replace": ":[TCIVar].stream().collect(Collectors.toSet())", "Instances": 1, "Relevant Instances": 1, "Commits": ["6c1d1151e2fa564fb5890701bbf4fa282bb5eacb"], "Project": ["beam"], "Link": "<a href= ../TypeChange354/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

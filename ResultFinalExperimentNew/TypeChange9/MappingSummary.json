@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "ArrayUtils.isEmpty(:[TCIVar])", "Replace": ":[TCIVar].isEmpty()", "Instances": 3, "Relevant Instances": 3, "Commits": ["c0c5a37a62ea2d35cc4cf3aeb9b29574d34df72f"], "Project": ["platform_frameworks_base"], "Link": "<a href= ../TypeChange9/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

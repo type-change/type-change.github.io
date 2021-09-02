@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[TCIVar]", "Replace": "BitUtils.unpackBits(:[TCIVar])", "Instances": 1, "Relevant Instances": 1, "Commits": ["d9eb75b2a76c611bd137509beba4eddef6e13fbd"], "Project": ["platform_frameworks_base"], "Link": "<a href= ../TypeChange194/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

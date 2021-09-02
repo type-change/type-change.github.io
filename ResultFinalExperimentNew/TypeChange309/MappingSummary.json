@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].in()", "Replace": "new FileInputStream(:[v0])", "Instances": 1, "Relevant Instances": 1, "Commits": ["ce3624f761148c7df0de33c291010dd722fb9d12"], "Project": ["geoserver"], "Link": "<a href= ../TypeChange309/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

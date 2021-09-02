@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[TCIVar]", "Replace": ":[TCIVar].get()", "Instances": 1, "Relevant Instances": 1, "Commits": ["6d14f32f16e155aa90ad8c9b8296d607ddc82db4"], "Project": ["alluxio"], "Link": "<a href= ../TypeChange36/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

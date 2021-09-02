@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].setNioEventLoopGroup(:[TCIVar])", "Replace": ":[v0].setEventLoopGroup(:[TCIVar])", "Instances": 2, "Relevant Instances": 2, "Commits": ["0702ba4ee9fb5294e5184d6abcc76919244e130b"], "Project": ["rest.li"], "Link": "<a href= ../TypeChange366/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

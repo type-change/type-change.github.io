@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "node1Failure=:[TCIVar]", "Replace": "node2Failure=:[TCIVar]", "Instances": 1, "Relevant Instances": 1, "Commits": ["ed091bd713603e985698e7e51b4bf83a849a16fc"], "Project": ["infinispan"], "Link": "<a href= ../TypeChange332/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

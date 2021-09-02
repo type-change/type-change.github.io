@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[v0].getJavaMethod()", "Replace": ":[v0].getMethodName()", "Instances": 2, "Relevant Instances": 2, "Commits": ["3e7aa8dd932c4aa4d78551e58a84bc7c80480b82"], "Project": ["junit5"], "Link": "<a href= ../TypeChange129/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

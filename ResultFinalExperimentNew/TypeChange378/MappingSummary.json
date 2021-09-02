@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "new :[[c]](:[v0],:[TCIVar])", "Replace": "new :[[c]](:[v0],null,:[TCIVar])", "Instances": 2, "Relevant Instances": 2, "Commits": ["fa92fc43eac4d8c6a33877a41e6541de33488820"], "Project": ["elasticsearch"], "Link": "<a href= ../TypeChange378/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[TCIVar]=new Double[costFunctions.size()]", "Replace": ":[TCIVar]=new double[costFunctions.size()]", "Instances": 2, "Relevant Instances": 2, "Commits": ["762abe3beab9dc6711c2497bc3cd7bdb11b95882"], "Project": ["hbase"], "Link": "<a href= ../TypeChange318/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

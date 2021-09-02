@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": "new Date()", "Replace": "LocalDateTime.now()", "Instances": 1, "Relevant Instances": 1, "Commits": ["f124f84f33c68f30e3f4b1c0a0e5e363665e5f67"], "Project": ["pac4j"], "Link": "<a href= ../TypeChange121/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}

@@ -1,0 +1,1 @@
+{"Mapping-0": {"Match": ":[TCIVar]", "Replace": ":[TCIVar].sum()", "Instances": 1, "Relevant Instances": 1, "Commits": ["dc1bd29c55316333a1ce06629581e62d53793168"], "Project": ["neo4j"], "Link": "<a href= ../TypeChange289/Mapping-0.html>Link</a>", "isChange": true, "isGood": false, "isVeryGood": false}}
